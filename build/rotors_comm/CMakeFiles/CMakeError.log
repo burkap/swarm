@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8289/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8289.dir/build.make CMakeFiles/cmTC_a8289.dir/build
+make[1]: Entering directory '/home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8289.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a8289.dir/CheckSymbolExists.c.o   -c /home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a8289
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8289.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8289.dir/CheckSymbolExists.c.o  -o cmTC_a8289 
+CMakeFiles/cmTC_a8289.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a8289.dir/build.make:97: recipe for target 'cmTC_a8289' failed
+make[1]: *** [cmTC_a8289] Error 1
+make[1]: Leaving directory '/home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8289/fast' failed
+make: *** [cmTC_a8289/fast] Error 2
+
+File /home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebf22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebf22.dir/build.make CMakeFiles/cmTC_ebf22.dir/build
+make[1]: Entering directory '/home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebf22.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ebf22.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebf22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebf22.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ebf22.dir/CheckFunctionExists.c.o  -o cmTC_ebf22 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ebf22.dir/build.make:97: recipe for target 'cmTC_ebf22' failed
+make[1]: *** [cmTC_ebf22] Error 1
+make[1]: Leaving directory '/home/burka/catkin_ws/build/rotors_comm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebf22/fast' failed
+make: *** [cmTC_ebf22/fast] Error 2
+
+

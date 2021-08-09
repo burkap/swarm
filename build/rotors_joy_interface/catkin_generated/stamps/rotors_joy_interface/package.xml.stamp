@@ -1,0 +1,35 @@
+<package>
+  <name>rotors_joy_interface</name>
+  <version>6.0.9</version>
+  <description>The rotors_joy_interface package to control MAVs with a joystick</description>
+
+  <maintainer email="giuseppe.silano@fel.cvut.cz">Giuseppe Silano</maintainer>
+  <maintainer email="luigi.iannelli@unisannio.it">Luigi Iannelli</maintainer>
+
+  <author>Giuseppe Silano</author>
+  <author>Luigi Iannelli</author>
+  <author>Emanuele Aucone</author>
+  <author>Benjamin Rodriguez</author>
+
+  <license>ASL 2.0</license>
+
+  <url type="website">https://github.com/gsilano/CrazyS</url>
+  <url type="bugtracker">https://github.com/gsilano/CrazyS/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>mav_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>trajectory_msgs</run_depend>
+
+</package>

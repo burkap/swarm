@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/burka/catkin_ws/devel/.private/rotors_gazebo/setup.sh

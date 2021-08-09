@@ -1,0 +1,1 @@
+/home/burka/catkin_ws/devel/.private/burka_pkg/share/common-lisp/ros/burka_pkg/msg/burka_pkg-msg.asd

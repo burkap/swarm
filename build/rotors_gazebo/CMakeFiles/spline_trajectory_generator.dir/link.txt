@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11  -shared -Wl,-soname,libspline_trajectory_generator.so -o /home/burka/catkin_ws/devel/.private/rotors_gazebo/lib/libspline_trajectory_generator.so CMakeFiles/spline_trajectory_generator.dir/src/library/spline_trajectory_generator.cpp.o 

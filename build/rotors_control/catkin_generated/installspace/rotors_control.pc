@@ -1,0 +1,8 @@
+prefix=/home/burka/catkin_ws/install
+
+Name: rotors_control
+Description: Description of rotors_control
+Version: 6.0.9
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -llee_position_controller -lposition_controller -lcrazyflie_onboard_controller -lroll_pitch_yawrate_thrust_controller -lsensfusion6 -lcrazyflie_complementary_filter -lmellinger_controller -linternal_model_controller -lroll_pitch_yawrate_thrust_controller_crazyflie
+Requires: geometry_msgs mav_msgs nav_msgs roscpp sensor_msgs

@@ -1,0 +1,1 @@
+/home/burka/catkin_ws/devel/.private/rotors_evaluation/lib/pkgconfig/rotors_evaluation.pc
