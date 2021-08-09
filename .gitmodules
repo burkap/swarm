@@ -1,0 +1,6 @@
+[submodule "src/CrazyS"]
+	path = src/CrazyS
+	url = https://github.com/gsilano/CrazyS
+[submodule "src/mav_comm"]
+	path = src/mav_comm
+	url = https://github.com/gsilano/mav_comm.git
