@@ -1,8 +1,0 @@
-prefix=/home/burka/catkin_ws/install
-
-Name: rotors_joy_interface
-Description: Description of rotors_joy_interface
-Version: 6.0.9
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp geometry_msgs mav_msgs sensor_msgs trajectory_msgs

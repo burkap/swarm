@@ -1,1 +1,0 @@
-/home/burka/catkin_ws/devel/.private/burka_pkg/lib/python2.7/dist-packages/burka_pkg/__init__.py

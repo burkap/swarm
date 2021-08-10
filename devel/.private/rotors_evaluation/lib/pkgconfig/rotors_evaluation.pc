@@ -1,8 +1,0 @@
-prefix=/home/burka/catkin_ws/devel/.private/rotors_evaluation
-
-Name: rotors_evaluation
-Description: Description of rotors_evaluation
-Version: 6.0.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

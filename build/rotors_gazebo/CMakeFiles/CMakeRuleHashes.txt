@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-672cb5615c0e6fcc2b28399bb70f216c /home/burka/catkin_ws/src/CrazyS/rotors_gazebo/models/iris/iris.sdf
-af2c9a38e1acc5e268f1fd1d6d107bd5 CMakeFiles/clean_test_results
-f2270fd4f3e522fddb04e4e1dc14682d CMakeFiles/sdf

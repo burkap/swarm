@@ -1,8 +1,0 @@
-prefix=/home/burka/catkin_ws/devel/.private/rotors_gazebo_plugins
-
-Name: rotors_gazebo_plugins
-Description: Description of rotors_gazebo_plugins
-Version: 6.0.9
-Cflags: -I/home/burka/catkin_ws/src/CrazyS/rotors_gazebo_plugins/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -lrotors_gazebo_motor_model -lrotors_gazebo_controller_interface
-Requires: cv_bridge geometry_msgs mav_msgs octomap_msgs octomap_ros rosbag roscpp rotors_comm rotors_control std_srvs tf gazebo_dev

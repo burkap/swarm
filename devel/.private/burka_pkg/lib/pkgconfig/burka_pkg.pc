@@ -1,8 +1,0 @@
-prefix=/home/burka/catkin_ws/devel/.private/burka_pkg
-
-Name: burka_pkg
-Description: Description of burka_pkg
-Version: 0.0.0
-Cflags: -I/home/burka/catkin_ws/devel/.private/burka_pkg/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

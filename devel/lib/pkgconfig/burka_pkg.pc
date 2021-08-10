@@ -1,1 +1,0 @@
-/home/burka/catkin_ws/devel/.private/burka_pkg/lib/pkgconfig/burka_pkg.pc

@@ -1,1 +1,0 @@
-/home/burka/catkin_ws/devel/.private/burka_pkg/include/burka_pkg/ChangeFormationResponse.h

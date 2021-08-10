@@ -1,7 +1,0 @@
-set(rotors_evaluation_SETUP_PY_SETUP_MODULE "distutils.core")
-set(rotors_evaluation_SETUP_PY_VERSION "6.0.9")
-set(rotors_evaluation_SETUP_PY_SCRIPTS "")
-set(rotors_evaluation_SETUP_PY_PACKAGES "rosbag_tools")
-set(rotors_evaluation_SETUP_PY_PACKAGE_DIRS "src/rosbag_tools")
-set(rotors_evaluation_SETUP_PY_MODULES "")
-set(rotors_evaluation_SETUP_PY_MODULE_DIRS "")
