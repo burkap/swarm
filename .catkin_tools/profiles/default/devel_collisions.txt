@@ -1,0 +1,2 @@
+/home/burka/catkin_ws/devel/./cmake.lock 362
+/home/burka/test/devel/./cmake.lock 24
