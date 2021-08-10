@@ -172,11 +172,8 @@ include_directories(
 # )
 
 catkin_install_python(PROGRAMS
-  scripts/talker.py
-  scripts/listener.py
   scripts/formation.py
   scripts/formation_publisher.py
-  scripts/rviz_publisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
