@@ -15,7 +15,7 @@ $ sudo apt install python-rosinstall python-rosinstall-generator build-essential
 ```
 Get workspace
 ```
-$ git clone https://github.com/burkap/swarm.git
+$ git clone --recurse-submodules https://github.com/burkap/swarm.git
 $ cd swarm
 ```
 Build your workspace with python_catkin_tools (therefore you need python_catkin_tools)
