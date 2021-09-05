@@ -56,3 +56,7 @@ To launch, run the following command in a terminal
 ```
 $ roslaunch burka_pkg firefly_swarm_hovering_example.launch
 ```
+## Videos
+![Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/nice.gif)
+![3D Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/3dd.gif)
+![Rviz visualization](https://raw.githubusercontent.com/burkap/swarm/master/media/rvizrviz.gif)
