@@ -1,3 +1,9 @@
+
+## Videos
+![Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/nice.gif)
+![3D Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/3dd.gif)
+![Rviz visualization](https://raw.githubusercontent.com/burkap/swarm/master/media/rvizrviz.gif)
+
 ## Installation Instructions - Ubuntu 18.04 with ROS Melodic and Gazebo 9
 
 Install and initialize ROS Melodic desktop full, additional ROS packages, catkin-tools, and wstool:
@@ -56,7 +62,3 @@ To launch, run the following command in a terminal
 ```
 $ roslaunch burka_pkg firefly_swarm_hovering_example.launch
 ```
-## Videos
-![Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/nice.gif)
-![3D Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/3dd.gif)
-![Rviz visualization](https://raw.githubusercontent.com/burkap/swarm/master/media/rvizrviz.gif)
