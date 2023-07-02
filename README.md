@@ -1,4 +1,9 @@
+# swarm
 
+This project is *mostly* based on the paper ["Decentralized Formation Control of a Swarm of Quadrotor Helicopters"](https://ieeexplore.ieee.org/document/8899628).
+```
+Also, keep in mind that this codebase is not ready to use, it is just a proof of concept.
+```
 ## Videos
 ![Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/nice.gif)
 ![3D Formation](https://raw.githubusercontent.com/burkap/swarm/master/media/3dd.gif)
